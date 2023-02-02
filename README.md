@@ -1,8 +1,6 @@
 # qflights data analysis
 sample flights data analysis
 
-## Kedro gRPC Scala Client
-
 ## Requirements:
 `sbt version: 1.8.2`
 `java version: 1.8.0_271`
