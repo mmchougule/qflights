@@ -71,7 +71,7 @@ object Main {
      */
     logger().info(s"Saving results for question $question")
     // use implicit dataPath variable specified in the main file, replace if file exists already
-//    df.coalesce(n).write.mode("overwrite").csv(s"${dataPath}/$question.csv")
+    df.coalesce(n).write.mode("overwrite").csv(s"${dataPath}/$question.csv")
   }
 
   def solveQuestion3(spark: SparkSession, flightDataDf: DataFrame, cFilter: String = "uk"): DataFrame = {

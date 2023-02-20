@@ -4,7 +4,7 @@ ThisBuild / scalaVersion := "2.12.10"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "untitled",
+    name := "qflights",
     idePackagePrefix := Some("org.quantexa.flights")
   )
 
